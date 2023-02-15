@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de formulários</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" name="name">
+
+        <label for="sobranome">Sobrenome</label>
+        <input type="text" name="sobrenome">
+
+        <select name="genero" id="genero">
+            <option value="genero-feminino">feminino</option>
+            <option value="genero-masculino">Masculino</option>
+        </select>
+
+        <div>
+            <p>Cor favorita</p>
+
+            <span>Vermelho</span>
+            <input type="checkbox" name="Cor-favorita" value="Vermelho">
+
+            <span>Verde</span>
+            <input type="checkbox" name="Cor-favorita" value="Verde">
+
+            <span>Azul</span>
+            <input type="checkbox" name="Cor-favorita" value="Azul">
+
+        </div>
+
+        <div>
+            <p>Cor favorita</p>
+
+            <span>Vermelho</span>
+            <input type="radio" name="Cor-favorita" value="Vermelho">
+
+            <span>Verde</span>
+            <input type="radio" name="Cor-favorita" value="Verde">
+
+            <span>Azul</span>
+            <input type="radio" name="Cor-favorita" value="Azul">
+        </div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+
+            <label for="date">Data de aniversário</label>
+            <input type="date" name="date" id="date">
+
+
+        <button type="Submit">Enviar formulário</button>
+        <button type="reset">Limpar formulário</button>
+
+    </form>
+</body>
+</html>
